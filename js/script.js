@@ -1,5 +1,11 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Bonnie Zhu
+// Created on: Mar 2023
 // This file contains the JS functions for index.html
+
+/**
+ * Do basic math.
+ */
+function doMathClicked() {
+  document.getElementById("Area").innerHTML = "<p>Area = " + (5 * 3) + "</p>"
+  document.getElementById("Perimeter").innerHTML = "<p>Perimeter =  " + (5 + 3 ) * 2 + "</p>" 
+}
